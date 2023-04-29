@@ -1,0 +1,52 @@
+{
+    "data": {
+        "sub": "summary",
+        "type": "root"
+    },
+    "children": [
+        {
+            "data": {
+                "sub": "gentlemen",
+                "click": "click"
+            },
+            "children": [
+                {
+                    "data": {
+                        "sub": "is of",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "Negro Ring",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": {
+                "sub": "Mr. President",
+                "click": "click"
+            },
+            "children": [
+                {
+                    "data": {
+                        "sub": "third of",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "population",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

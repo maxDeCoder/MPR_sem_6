@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.topG{
+    background: url(../images/bg.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: auto;
+    background-color: rgba(25, 1, 34, 0.784);
+    background-blend-mode: multiply;
+   
+}
+.top-bg{
+    padding-top: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    color: #fff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left-bg{
+    /* align GrandArchives to left and give proper font */
+    font-family: 'Lobster', cursive;
+    margin-left: 10em;
+    font-size: 1em; /* Set the font size of the parent element */
+}
+.left-bg p{
+    font-size: 5.5em !important; /* Set the font size of the text using em units */
+    font-weight: 600;
+}
+.blg-svg{
+    margin-right: 10vw;
+}
+.tptxt{
+    /* text in one line */
+    display: inline-block;
+    /* remove space and increase font */
+    font-size: 6.5em;
+    font-weight: 600;
+    /* add space between text */
+    letter-spacing: 0em;
+    
+
+}
+.wiz{
+    margin-left: -.5em;
+    color: #aab8e4;
+}
+.btn1{
+    /* make button with over animation */
+    background-color: none;
+    color: #fff;
+    border: none;
+ 
+    font-size: 3.2em;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    
+}
+.btn1:hover{
+    background-color: #ccc2e8;
+    padding: .2em;
+    color: #121b36;
+    border: 1px solid #aab8e4;
+}
+.about{
+    /* about section */
+    background-color: #121b36;
+    height: fit-content;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.title{
+    /* title in about section */
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-top: 10vh;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.text{
+    /* text in about section */
+    font-size: 1.5em;
+    padding: 0 10vw;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+}
+
+.form-container {
+	/* width: 100vw;
+	height: 100vh; */
+	background-color: #ffffff;
+	display: flex;
+   	justify-content: center;
+	align-items: center;
+    margin-bottom: 10vh;
+}
+.upload-files-container {
+	background-color: #f7fff7;
+	width: 420px;
+	padding: 30px 60px;
+	border-radius: 40px;
+	display: flex;
+   	align-items: center;
+   	justify-content: center;
+	flex-direction: column;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 20px, rgba(0, 0, 0, 0.28) 0px 6px 6px;
+}
+.drag-file-area {
+	border: 2px dashed #7b2cbf;
+	border-radius: 40px;
+	margin: 10px 0 15px;
+	padding: 30px 0;
+	width: 350px;
+	text-align: center;
+}
+.drag-file-area .upload-icon {
+	font-size: 50px;
+}
+.drag-file-area h3 {
+	font-size: 26px;
+	margin: 15px 0;
+}
+.drag-file-area label {
+	font-size: 19px;
+}
+.drag-file-area label .browse-files-text {
+	color: #7b2cbf;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.browse-files span {
+	position: relative;
+	top: -25px;
+}
+.default-file-input {
+	opacity: 0;
+}
+.cannot-upload-message {
+	background-color: #ffc6c4;
+	font-size: 17px;
+	display: flex;
+	align-items: center;
+	margin: 5px 0;
+	padding: 5px 10px 5px 30px;
+	border-radius: 5px;
+	color: #BB0000;
+	display: none;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.cannot-upload-message span, .upload-button-icon {
+	padding-right: 10px;
+}
+.cannot-upload-message span:last-child {
+	padding-left: 20px;
+	cursor: pointer;
+}
+.file-block {
+	color: #f7fff7;
+	background-color: #7b2cbf;
+  	transition: all 1s;
+	width: 390px;
+	position: relative;
+	display: none;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0 15px;
+	padding: 10px 20px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.file-info {
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+}
+.file-icon {
+	margin-right: 10px;
+}
+.file-name, .file-size {
+	padding: 0 3px;
+}
+.remove-file-icon {
+	cursor: pointer;
+}
+.progress-bar {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	left: 4.5%;
+	width: 0;
+	height: 5px;
+	border-radius: 25px;
+	background-color: #4BB543;
+}
+.upload-button {
+	font-family: 'Montserrat';
+	background-color: #7b2cbf;
+	color: #f7fff7;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	border: none;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 7.5px 50px;
+	cursor: pointer;
+}
