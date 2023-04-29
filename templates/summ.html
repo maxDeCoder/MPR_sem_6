@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="getData()">
+    <section class="summiz" style="display: none;">
+        <!-- hidden if data from backend is empyty else display block -->
+        <div class="text-center title">Summary</div>
+        <div id="sum" class="summary">
+            <h3><b>Summary:</b></h3>
+            <p id="summary_value"></p>
+        </div>
+        <div class="editable_viewR">
+            <!-- graph -->
+        </div>
+    </section>
+   <script>
+    async function getData(){
+    console.log("fetching summary")
+    data = await fetch("/process/test.mp3");
+    data = await data.json();
+
+    console.log(data);
+
+    text = data["summary"];
+
+    document.getElementById("summary_value").innerText = text;
+}
+
+   </script>
+</body>
+
+</html>
