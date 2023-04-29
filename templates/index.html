@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <section class="topG">
         <div class="top-bg">
@@ -24,10 +27,10 @@
             </div>
             <div class="blg-svg">
                 <!-- add blog svg -->
-                <img src="../static/images/audio.svg" width="500em"> 
+                <img src="../static/images/audio.svg" width="500em">
             </div>
         </div>
-        
+
     </section>
     <!-- <section class="about">
         <div class="title">
@@ -41,18 +44,23 @@
         <!-- accept a audio file  -->
         <div class="form">
             <h1 class="title text-center" style="margin-bottom: 5vh;">Upload audio file</h1>
-            
 
-            <form  action="/upload" method="post" class="form-container" enctype='multipart/form-data' >
+
+            <form action="/upload" method="post" class="form-container" enctype='multipart/form-data'>
                 <div class="upload-files-container">
                     <div class="drag-file-area">
                         <span class="material-icons-outlined upload-icon"> file_upload </span>
                         <h3 class="dynamic-message"> Drag & drop any file here </h3>
-                        <label class="label"> or <span class="browse-files"> <input type="file" class="default-file-input"/> <span class="browse-files-text">browse file</span> <span>from device</span> </span> </label>
+                        <label class="label"> or <span class="browse-files"> <input name="file" type="file"
+                                    class="default-file-input" /> <span class="browse-files-text">browse file</span>
+                                <span>from device</span> </span> </label>
                     </div>
-                    <span class="cannot-upload-message"> <span class="material-icons-outlined">error</span> Please select a file first <span class="material-icons-outlined cancel-alert-button">cancel</span> </span>
+                    <span class="cannot-upload-message"> <span class="material-icons-outlined">error</span> Please
+                        select a file first <span class="material-icons-outlined cancel-alert-button">cancel</span>
+                    </span>
                     <div class="file-block">
-                        <div class="file-info"> <span class="material-icons-outlined file-icon">description</span> <span class="file-name"> </span> | <span class="file-size">  </span> </div>
+                        <div class="file-info"> <span class="material-icons-outlined file-icon">description</span> <span
+                                class="file-name"> </span> | <span class="file-size"> </span> </div>
                         <span class="material-icons remove-file-icon">delete</span>
                         <div class="progress-bar"> </div>
                     </div>
@@ -73,350 +81,351 @@
             <!-- graph -->
         </div>
     </section>
-   
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
-<script src="css/tether/tether.min.js"></script>
-<!-- <script src="css/bootstrap/js/bootstrap.min.js"></script> -->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+        integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="css/tether/tether.min.js"></script>
+    <!-- <script src="css/bootstrap/js/bootstrap.min.js"></script> -->
 
-<!-- <script src="css/dropdown/js/navbar-dropdown.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
 
-<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-  var isAdvancedUpload = function() {
-  var div = document.createElement('div');
-  return (('draggable' in div) || ('ondragstart' in div && 'ondrop' in div)) && 'FormData' in window && 'FileReader' in window;
-}();
+    <!-- <script src="css/dropdown/js/navbar-dropdown.js"></script> -->
 
-let draggableFileArea = document.querySelector(".drag-file-area");
-let browseFileText = document.querySelector(".browse-files");
-let uploadIcon = document.querySelector(".upload-icon");
-let dragDropText = document.querySelector(".dynamic-message");
-let fileInput = document.querySelector(".default-file-input");
-let cannotUploadMessage = document.querySelector(".cannot-upload-message");
-let cancelAlertButton = document.querySelector(".cancel-alert-button");
-let uploadedFile = document.querySelector(".file-block");
-let fileName = document.querySelector(".file-name");
-let fileSize = document.querySelector(".file-size");
-let progressBar = document.querySelector(".progress-bar");
-let removeFileButton = document.querySelector(".remove-file-icon");
-let uploadButton = document.querySelector(".upload-button");
-let fileFlag = 0;
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        var isAdvancedUpload = function () {
+            var div = document.createElement('div');
+            return (('draggable' in div) || ('ondragstart' in div && 'ondrop' in div)) && 'FormData' in window && 'FileReader' in window;
+        }();
 
-async function getData(){
-    console.log("fetching summary")
-    data = await fetch("/process/test.mp3");
-    data = await data.json();
+        let draggableFileArea = document.querySelector(".drag-file-area");
+        let browseFileText = document.querySelector(".browse-files");
+        let uploadIcon = document.querySelector(".upload-icon");
+        let dragDropText = document.querySelector(".dynamic-message");
+        let fileInput = document.querySelector(".default-file-input");
+        let cannotUploadMessage = document.querySelector(".cannot-upload-message");
+        let cancelAlertButton = document.querySelector(".cancel-alert-button");
+        let uploadedFile = document.querySelector(".file-block");
+        let fileName = document.querySelector(".file-name");
+        let fileSize = document.querySelector(".file-size");
+        let progressBar = document.querySelector(".progress-bar");
+        let removeFileButton = document.querySelector(".remove-file-icon");
+        let uploadButton = document.querySelector(".upload-button");
+        let fileFlag = 0;
 
-    console.log(data);
+        async function getData() {
+            console.log("fetching summary")
+            data = await fetch("/process/test.mp3");
+            data = await data.json();
 
-    text = data["summary"];
+            console.log(data);
 
-    document.getElementById("summary_value").innerText = text;
-}
+            text = data["summary"];
 
-fileInput.addEventListener("click", () => {
-	fileInput.value = '';
-	console.log(fileInput.value);
-});
+            document.getElementById("summary_value").innerText = text;
+        }
 
-fileInput.addEventListener("change", e => {
-	console.log(" > " + fileInput.value)
-	uploadIcon.innerHTML = 'check_circle';
-	dragDropText.innerHTML = 'File Dropped Successfully!';
-	document.querySelector(".label").innerHTML = `drag & drop or <span class="browse-files"> <input type="file" class="default-file-input" style=""/> <span class="browse-files-text" style="top: 0;"> browse file</span></span>`;
-	uploadButton.innerHTML = `Upload`;
-	fileName.innerHTML = fileInput.files[0].name;
-	fileSize.innerHTML = (fileInput.files[0].size/1024).toFixed(1) + " KB";
-	uploadedFile.style.cssText = "display: flex;";
-	progressBar.style.width = 0;
-	fileFlag = 0;
-});
+        fileInput.addEventListener("click", () => {
+            fileInput.value = '';
+            console.log(fileInput.value);
+        });
 
-uploadButton.addEventListener("click", () => {
-	let isFileUploaded = fileInput.value;
-	if(isFileUploaded != '') {
-		if (fileFlag == 0) {
-    		fileFlag = 1;
-    		var width = 0;
-    		var id = setInterval(frame, 50);
-    		function frame() {
-      			if (width >= 390) {
-        			clearInterval(id);
-					uploadButton.innerHTML = `<span class="material-icons-outlined upload-button-icon"> check_circle </span> Uploaded`;
-      			} else {
-        			width += 5;
-        			progressBar.style.width = width + "px";
-      			}
-    		}
-  		}
-	} else {
-		cannotUploadMessage.style.cssText = "display: flex; animation: fadeIn linear 1.5s;";
-	}
-});
+        fileInput.addEventListener("change", e => {
+            console.log(" > " + fileInput.value)
+            uploadIcon.innerHTML = 'check_circle';
+            dragDropText.innerHTML = 'File Dropped Successfully!';
+            document.querySelector(".label").innerHTML = `drag & drop or <span class="browse-files"> <input type="file" class="default-file-input" style=""/> <span class="browse-files-text" style="top: 0;"> browse file</span></span>`;
+            uploadButton.innerHTML = `Upload`;
+            fileName.innerHTML = fileInput.files[0].name;
+            fileSize.innerHTML = (fileInput.files[0].size / 1024).toFixed(1) + " KB";
+            uploadedFile.style.cssText = "display: flex;";
+            progressBar.style.width = 0;
+            fileFlag = 0;
+        });
 
-cancelAlertButton.addEventListener("click", () => {
-	cannotUploadMessage.style.cssText = "display: none;";
-});
+        uploadButton.addEventListener("click", () => {
+            let isFileUploaded = fileInput.value;
+            if (isFileUploaded != '') {
+                if (fileFlag == 0) {
+                    fileFlag = 1;
+                    var width = 0;
+                    var id = setInterval(frame, 50);
+                    function frame() {
+                        if (width >= 390) {
+                            clearInterval(id);
+                            uploadButton.innerHTML = `<span class="material-icons-outlined upload-button-icon"> check_circle </span> Uploaded`;
+                        } else {
+                            width += 5;
+                            progressBar.style.width = width + "px";
+                        }
+                    }
+                }
+            } else {
+                cannotUploadMessage.style.cssText = "display: flex; animation: fadeIn linear 1.5s;";
+            }
+        });
 
-if(isAdvancedUpload) {
-	["drag", "dragstart", "dragend", "dragover", "dragenter", "dragleave", "drop"].forEach( evt => 
-		draggableFileArea.addEventListener(evt, e => {
-			e.preventDefault();
-			e.stopPropagation();
-		})
-	);
+        cancelAlertButton.addEventListener("click", () => {
+            cannotUploadMessage.style.cssText = "display: none;";
+        });
 
-	["dragover", "dragenter"].forEach( evt => {
-		draggableFileArea.addEventListener(evt, e => {
-			e.preventDefault();
-			e.stopPropagation();
-			uploadIcon.innerHTML = 'file_download';
-			dragDropText.innerHTML = 'Drop your file here!';
-		});
-	});
+        if (isAdvancedUpload) {
+            ["drag", "dragstart", "dragend", "dragover", "dragenter", "dragleave", "drop"].forEach(evt =>
+                draggableFileArea.addEventListener(evt, e => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                })
+            );
 
-	draggableFileArea.addEventListener("drop", e => {
-		uploadIcon.innerHTML = 'check_circle';
-		dragDropText.innerHTML = 'File Dropped Successfully!';
-		document.querySelector(".label").innerHTML = `drag & drop or <span class="browse-files"> <input type="file" class="default-file-input" style=""/> <span class="browse-files-text" style="top: -23px; left: -20px;"> browse file</span> </span>`;
-		uploadButton.innerHTML = `Upload`;
-		
-		let files = e.dataTransfer.files;
-		fileInput.files = files;
-		console.log(files[0].name + " " + files[0].size);
-		console.log(document.querySelector(".default-file-input").value);
-		fileName.innerHTML = files[0].name;
-		fileSize.innerHTML = (files[0].size/1024).toFixed(1) + " KB";
-		uploadedFile.style.cssText = "display: flex;";
-		progressBar.style.width = 0;
-		fileFlag = 0;
-	});
-}
+            ["dragover", "dragenter"].forEach(evt => {
+                draggableFileArea.addEventListener(evt, e => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    uploadIcon.innerHTML = 'file_download';
+                    dragDropText.innerHTML = 'Drop your file here!';
+                });
+            });
 
-removeFileButton.addEventListener("click", () => {
-	uploadedFile.style.cssText = "display: none;";
-	fileInput.value = '';
-	uploadIcon.innerHTML = 'file_upload';
-	dragDropText.innerHTML = 'Drag & drop any file here';
-	document.querySelector(".label").innerHTML = `or <span class="browse-files"> <input type="file" class="default-file-input"/> <span class="browse-files-text">browse file</span> <span>from device</span> </span>`;
-	uploadButton.innerHTML = `Upload`;
-});
+            draggableFileArea.addEventListener("drop", e => {
+                uploadIcon.innerHTML = 'check_circle';
+                dragDropText.innerHTML = 'File Dropped Successfully!';
+                document.querySelector(".label").innerHTML = `drag & drop or <span class="browse-files"> <input type="file" class="default-file-input" style=""/> <span class="browse-files-text" style="top: -23px; left: -20px;"> browse file</span> </span>`;
+                uploadButton.innerHTML = `Upload`;
 
-// on submit of form send the file to server
-document.querySelector(".form").addEventListener("submit", e => {
-    e.preventDefault();
-    let formData = new FormData();
-    formData.append("file", fileInput.files[0]);
+                let files = e.dataTransfer.files;
+                fileInput.files = files;
+                console.log(files[0].name + " " + files[0].size);
+                console.log(document.querySelector(".default-file-input").value);
+                fileName.innerHTML = files[0].name;
+                fileSize.innerHTML = (files[0].size / 1024).toFixed(1) + " KB";
+                uploadedFile.style.cssText = "display: flex;";
+                progressBar.style.width = 0;
+                fileFlag = 0;
+            });
+        }
 
-    let xhr = new XMLHttpRequest();
-    xhr.open("POST", "/upload");
-    xhr.send(formData);
-});
+        removeFileButton.addEventListener("click", () => {
+            uploadedFile.style.cssText = "display: none;";
+            fileInput.value = '';
+            uploadIcon.innerHTML = 'file_upload';
+            dragDropText.innerHTML = 'Drag & drop any file here';
+            document.querySelector(".label").innerHTML = `or <span class="browse-files"> <input type="file" class="default-file-input"/> <span class="browse-files-text">browse file</span> <span>from device</span> </span>`;
+            uploadButton.innerHTML = `Upload`;
+        });
 
-// after uploaded message display form to none after 2 seconds using aos animation
-document.querySelector(".form").addEventListener("submit", e => {
-    e.preventDefault();
-    setTimeout(() => {
-        document.querySelector(".form").style.cssText = "display: none;";
-    }, 5000);
-});
+        // on submit of form send the file to server
+        document.querySelector(".form").addEventListener("submit", e => {
+            e.preventDefault();
+            let formData = new FormData();
+            formData.append("file", fileInput.files[0]);
 
-// display summiz to block on form submission
-document.querySelector(".form").addEventListener("submit", e => {
-    e.preventDefault();
-    document.querySelector(".summiz").style.cssText = "display: block;";
-});
+            fetch("/upload", {
+                method: "POST",
+                body: formData
+            })
+                .then(response => {
+                    // handle response from server
+                    window.location.href = "/uploaded";
+                })
+                .catch(error => {
+                    // handle error
+                });
+        });
 
-is_locked = false;
-summary = ""
-nodes = {}
-sections = {}
-enitities = []
-num_parent_nodes = 0
-function clear_graph() {
-    document.getElementById("graph").innerHTML = "";
-}
-async function query() {
-    clear_graph()
-    lock_input()
-    text = document.getElementById("text_input").value;
-    res = await fetch(`/process/test.mp3`, {
-        headers: {
-            "Content-Type": "application/json"
-        },
-    });
+        is_locked = false;
+        summary = ""
+        nodes = {}
+        sections = {}
+        enitities = []
+        num_parent_nodes = 0
+        function clear_graph() {
+            document.getElementById("graph").innerHTML = "";
+        }
+        async function query() {
+            clear_graph()
+            lock_input()
+            text = document.getElementById("text_input").value;
+            res = await fetch(`/process/test.mp3`, {
+                headers: {
+                    "Content-Type": "application/json"
+                },
+            });
 
-    data = await res.json();
-    console.log(data);
-    summary = data.summary;
-    enitities = data.entities;
+            data = await res.json();
+            console.log(data);
+            summary = data.summary;
+            enitities = data.entities;
 
-    build_graph()
-    updateSummary(summary, enitities)
-}
+            build_graph()
+            updateSummary(summary, enitities)
+        }
 
-function lock_input() {
-    is_locked = true;
-    document.getElementById("P_input").innerText = document.getElementById("text_input").value.replace(/(\r\n|\n|\r)/gm, "");
-    document.getElementById("text_input").style.display = "none";
-}
+        function lock_input() {
+            is_locked = true;
+            document.getElementById("P_input").innerText = document.getElementById("text_input").value.replace(/(\r\n|\n|\r)/gm, "");
+            document.getElementById("text_input").style.display = "none";
+        }
 
-function reset_input() {
-    is_locked = false;
-    document.getElementById("P_input").innerText = ""
-    document.getElementById("text_input").style.display = "block";
-    document.getElementById("text_input").value = "";
-    resetHighlights()
-    clear_graph()
-}
+        function reset_input() {
+            is_locked = false;
+            document.getElementById("P_input").innerText = ""
+            document.getElementById("text_input").style.display = "block";
+            document.getElementById("text_input").value = "";
+            resetHighlights()
+            clear_graph()
+        }
 
-// update the summary element with the summary and hyperlink the salient words such that they do a google search
-function updateSummary(summary, salient_words) {
-    var summary_element = document.getElementById("summary");
-    summary_element.innerHTML = summary;
-    // create hyperlinks in the summary for words in salient_words such that they do google search
-    for (var i = 0; i < salient_words.length; i++) {
-        var word = salient_words[i];
-        var regex = new RegExp(word, "g");
-        summary_element.innerHTML = summary_element.innerHTML.replace(regex, `<a href='https://www.google.com/search?q=${word}' target='_blank'>${word}</a>`);
-    }
-}
-
-function highlight_section(section_name) {
-    if (is_locked) {
-        for (let i = 0; i < sections.length; i++) {
-            if (sections[i].type == section_name) {
-                console.log(sections[i].start, sections[i].end)
-                highlight(sections[i].start, sections[i].end)
-                break
+        // update the summary element with the summary and hyperlink the salient words such that they do a google search
+        function updateSummary(summary, salient_words) {
+            var summary_element = document.getElementById("summary");
+            summary_element.innerHTML = summary;
+            // create hyperlinks in the summary for words in salient_words such that they do google search
+            for (var i = 0; i < salient_words.length; i++) {
+                var word = salient_words[i];
+                var regex = new RegExp(word, "g");
+                summary_element.innerHTML = summary_element.innerHTML.replace(regex, `<a href='https://www.google.com/search?q=${word}' target='_blank'>${word}</a>`);
             }
         }
-    } else {
-        alert("Please click the analyze button first")
-    }
-}
 
-function resetHighlights(){
-    para = document.getElementById("P_input");
-    para.innerHTML = para.innerHTML.replace("<mark>", "")   
-    para.innerHTML = para.innerHTML.replace("</mark>", "")
-}
-
-function highlight(start_char, end_char, type="section") {
-    // clear previous highglight
-    if (is_locked) {
-        para = document.getElementById("P_input");
-        
-        if (type == "section"){resetHighlights()}
-
-        // insert <mark> at start_char and </mark> at end_char
-        para.innerHTML = para.innerHTML.substring(0, start_char) + "<mark>" + para.innerHTML.substring(start_char, end_char) + "</mark>" + para.innerHTML.substring(end_char);
-    } else {
-        alert("Please click the analyze button first")
-    }
-}
-
-function build_graph() {
-    var canvas = d3.select(".editable_viewR").append("svg")
-        .attr("width", 700)
-        .attr("height", 700)
-        .call(d3.zoom().on("zoom", function () {
-            canvas.attr("transform", d3.event.transform)
-        }))
-        .append("g")
-        .attr("transform", "translate(0,0)")
-        .attr("zoom", "0.1")
-
-
-    var tree = d3.tree()
-        .size([400, 400]);
-
-    d3.json("tree", function (err, data) {
-        console.log(data)
-
-
-        // set number parent nodes
-        num_parent_nodes = data.children.length;
-
-        var nodes = tree(d3.hierarchy(data));
-        var links = nodes.links();
-
-        var node = canvas.selectAll(".node")
-            .data(nodes.descendants())
-            .enter()
-            .append("g")
-            .attr("class", "node")
-            .attr("transform", function (d) {
-                return "translate(" + d.y * 2 + "," + d.x * 0.2 * num_parent_nodes + ")";
-            });
-        //action on selecting a circle only for one entity  
-
-        test = "This page shares my best articles to read on topics like health, happiness, creativity, productivity and more. The central question that drives my work is, “How can we live better?” To answer that question, I like to write about science-based ways to solve practical problems. You’ll find interesting articles to read on topics like how to stop procrastinating as well as personal recommendations like my list of the best books to read and my minimalist travel guide. Ready to dive in? You can use the categories below to browse my best articles."
-
-        node.append("circle")
-            .attr("r", d => {
-                if (d.data.data.type == "ref") {
-                    return 5;
-                } else { return 20 }
-            })
-            .attr("fill", d => {
-                if (d.data.data.type == "obj") {
-                    return "#ffcc66"
-                } else if (d.data.data.type == "root" || d.data.data.type == "ref") {
-                    return "steelblue"
-                } else {
-                    return "#dd99ff"
+        function highlight_section(section_name) {
+            if (is_locked) {
+                for (let i = 0; i < sections.length; i++) {
+                    if (sections[i].type == section_name) {
+                        console.log(sections[i].start, sections[i].end)
+                        highlight(sections[i].start, sections[i].end)
+                        break
+                    }
                 }
-            });
+            } else {
+                alert("Please click the analyze button first")
+            }
+        }
+
+        function resetHighlights() {
+            para = document.getElementById("P_input");
+            para.innerHTML = para.innerHTML.replace("<mark>", "")
+            para.innerHTML = para.innerHTML.replace("</mark>", "")
+        }
+
+        function highlight(start_char, end_char, type = "section") {
+            // clear previous highglight
+            if (is_locked) {
+                para = document.getElementById("P_input");
+
+                if (type == "section") { resetHighlights() }
+
+                // insert <mark> at start_char and </mark> at end_char
+                para.innerHTML = para.innerHTML.substring(0, start_char) + "<mark>" + para.innerHTML.substring(start_char, end_char) + "</mark>" + para.innerHTML.substring(end_char);
+            } else {
+                alert("Please click the analyze button first")
+            }
+        }
+
+        function build_graph() {
+            var canvas = d3.select(".editable_viewR").append("svg")
+                .attr("width", 700)
+                .attr("height", 700)
+                .call(d3.zoom().on("zoom", function () {
+                    canvas.attr("transform", d3.event.transform)
+                }))
+                .append("g")
+                .attr("transform", "translate(0,0)")
+                .attr("zoom", "0.1")
+
+
+            var tree = d3.tree()
+                .size([400, 400]);
+
+            d3.json("tree", function (err, data) {
+                console.log(data)
+
+
+                // set number parent nodes
+                num_parent_nodes = data.children.length;
+
+                var nodes = tree(d3.hierarchy(data));
+                var links = nodes.links();
+
+                var node = canvas.selectAll(".node")
+                    .data(nodes.descendants())
+                    .enter()
+                    .append("g")
+                    .attr("class", "node")
+                    .attr("transform", function (d) {
+                        return "translate(" + d.y * 2 + "," + d.x * 0.2 * num_parent_nodes + ")";
+                    });
+                //action on selecting a circle only for one entity  
+
+                test = "This page shares my best articles to read on topics like health, happiness, creativity, productivity and more. The central question that drives my work is, “How can we live better?” To answer that question, I like to write about science-based ways to solve practical problems. You’ll find interesting articles to read on topics like how to stop procrastinating as well as personal recommendations like my list of the best books to read and my minimalist travel guide. Ready to dive in? You can use the categories below to browse my best articles."
+
+                node.append("circle")
+                    .attr("r", d => {
+                        if (d.data.data.type == "ref") {
+                            return 5;
+                        } else { return 20 }
+                    })
+                    .attr("fill", d => {
+                        if (d.data.data.type == "obj") {
+                            return "#ffcc66"
+                        } else if (d.data.data.type == "root" || d.data.data.type == "ref") {
+                            return "steelblue"
+                        } else {
+                            return "#dd99ff"
+                        }
+                    });
 
 
 
-        node.append("text")
-            .text(function (d) {
-                //console.log(d);
-                return d.data.data.sub;
+                node.append("text")
+                    .text(function (d) {
+                        //console.log(d);
+                        return d.data.data.sub;
+                    })
+                    .attr("dy", d => {
+                        offset = "-1.5em";
+                        if (d.data.data.type == "root") { }
+                    })
+                    .attr("dx", d => {
+                        size = "-3em";
+                        if (d.data.data.type == "root") { size = "-5em" }
+                        else if (d.data.data.type == "ref") { size = "0em" }
+                        else if (d.data.data.type == "obj") { return "1.5em" }
+                        return size
+                    })
+                    .attr("font-style", "bold")
+                    .attr("font-size", d => {
+                        if (d.data.data.type == "ref") {
+                            return "14px";
+                        } else { return "16px" }
+                    })
+
+                var diagonal = d3.linkVertical()
+                    .x(function (d) { return d.y * 2 })
+                    .y(function (d) { return d.x * 0.2 * num_parent_nodes })
+
+
+                canvas.selectAll(".link")
+                    .data(links)
+                    .enter()
+                    .append("path")
+                    .attr("class", "link")
+                    .attr("fill", "none")
+                    .attr("stroke", "#ccc")
+                    .attr("d", diagonal);
+
+
             })
-            .attr("dy", d => {
-                offset = "-1.5em";
-                if (d.data.data.type == "root") { }
-            })
-            .attr("dx", d => {
-                size = "-3em";
-                if (d.data.data.type == "root") { size = "-5em" }
-                else if (d.data.data.type == "ref") { size = "0em" }
-                else if (d.data.data.type == "obj") { return "1.5em" }
-                return size
-            })
-            .attr("font-style", "bold")
-            .attr("font-size", d => {
-                if (d.data.data.type == "ref") {
-                    return "14px";
-                } else { return "16px" }
-            })
-
-        var diagonal = d3.linkVertical()
-            .x(function (d) { return d.y * 2 })
-            .y(function (d) { return d.x * 0.2 * num_parent_nodes })
-
-
-        canvas.selectAll(".link")
-            .data(links)
-            .enter()
-            .append("path")
-            .attr("class", "link")
-            .attr("fill", "none")
-            .attr("stroke", "#ccc")
-            .attr("d", diagonal);
-
-
-    })
-}
-</script>
+        }
+    </script>
 </body>
+
 </html>

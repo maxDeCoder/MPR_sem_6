@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, redirect, render_template, request
+from flask import Flask, jsonify, redirect, render_template, request, url_for
 from modules import STT, get_summary, annotate, clean_annotations, create_nodes, get_ents
 import os
 import json
@@ -12,11 +12,16 @@ def index():
 @app.route('/upload', methods=['POST'])
 def upload():
     print("uploading file")
-    if request.method == 'POST':
-        print("uploading file")
-        file = request.files['file']
-        file.save("./generated/" + file.filename)
-        return redirect("/")
+    print(request.files)
+    file = request.files['file']
+    file.save("./generated/" + file.filename)
+    print("uploaded")
+    return redirect(url_for("uploaded"))
+        # return render_template("summary.html")
+ 
+@app.route("/uploaded")
+def uploaded():
+    return render_template("summary.html")
 
 @app.route("/process/<filename>")
 def process(filename):
@@ -40,8 +45,6 @@ def tree():
     data = json.load(input_file)
 
     return jsonify(data)
-
-
 
 if __name__=='__main__':
     app.run(debug=True, port=8000)
