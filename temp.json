@@ -6,19 +6,19 @@
     "children": [
         {
             "data": {
-                "sub": "gentlemen",
+                "sub": "This",
                 "click": "click"
             },
             "children": [
                 {
                     "data": {
-                        "sub": "is of",
+                        "sub": "is",
                         "type": "ref"
                     },
                     "children": [
                         {
                             "data": {
-                                "sub": "Negro Ring",
+                                "sub": "five minute Friday",
                                 "type": "obj"
                             }
                         }
@@ -28,19 +28,265 @@
         },
         {
             "data": {
-                "sub": "Mr. President",
+                "sub": "she",
                 "click": "click"
             },
             "children": [
                 {
                     "data": {
-                        "sub": "third of",
+                        "sub": "So has worked in",
                         "type": "ref"
                     },
                     "children": [
                         {
                             "data": {
-                                "sub": "population",
+                                "sub": "advertising",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": {
+                "sub": "brand",
+                "click": "click"
+            },
+            "children": [
+                {
+                    "data": {
+                        "sub": "has",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "choice",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": {
+                "sub": "your competitors",
+                "click": "click"
+            },
+            "children": [
+                {
+                    "data": {
+                        "sub": "most of",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "us",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": {
+                "sub": "'s",
+                "click": "click"
+            },
+            "children": [
+                {
+                    "data": {
+                        "sub": "let",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "let honest",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": {
+                "sub": "you",
+                "click": "click"
+            },
+            "children": [
+                {
+                    "data": {
+                        "sub": "bigger budget than",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "most",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": {
+                "sub": "they",
+                "click": "click"
+            },
+            "children": [
+                {
+                    "data": {
+                        "sub": "were",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "famous",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "sub": "were",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "more famous",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": {
+                "sub": "me",
+                "click": "click"
+            },
+            "children": [
+                {
+                    "data": {
+                        "sub": "fill up",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "my speaking calendar",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": {
+                "sub": "I",
+                "click": "click"
+            },
+            "children": [
+                {
+                    "data": {
+                        "sub": "created connection",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "able to harness nine seconds",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "sub": "was",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "able to harness first nine seconds",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "sub": "was able at_time",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "nine seconds",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "sub": "created connection",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "because able nine seconds",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": {
+                "sub": "It",
+                "click": "click"
+            },
+            "children": [
+                {
+                    "data": {
+                        "sub": "has",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "called",
+                                "type": "obj"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "sub": "'s called",
+                        "type": "ref"
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "sub": "Millionaire Morning",
                                 "type": "obj"
                             }
                         }
