@@ -42,7 +42,7 @@
     /* text in one line */
     display: inline-block;
     /* remove space and increase font */
-    font-size: 6.5em;
+    font-size: 5.5em;
     font-weight: 600;
     /* add space between text */
     letter-spacing: 0em;
@@ -50,7 +50,7 @@
 
 }
 .wiz{
-    margin-left: -.5em;
+    margin-left: 0em;
     color: #aab8e4;
 }
 .btn1{
