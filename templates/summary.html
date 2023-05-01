@@ -30,14 +30,34 @@
     <title>Document</title>
 </head>
 
-<body onload="getData()" style="margin: 2em;">
-    <section class="summiz" >
+<body onload="getData()" >
+    <section class="topG">
+        <div class="top-bg">
+            <div class="left-bg">
+                <div class="tptxt">
+                    <span class="sum">SUM</span>
+                    <span class="wiz">WIZ</span>
+                </div>
+                <div>
+                    <a href="/" class="btn1">Upload New</a>
+                </div>
+            </div>
+            <div class="blg-svg">
+                <!-- add blog svg -->
+                <img src="../static/images/audio.svg" width="500em">
+            </div>
+        </div>
+
+    </section>
+    <section class="summiz" style="margin: 2em;">
         <!-- hidden if data from backend is empyty else display block -->
         <div class="text-center title">Summary</div>
         <div id="sum" class="summary">
-            <h3><b>Summary:</b></h3>
-            <p id="summary_value">Processing</p>
+            <h3><b></b></h3>
+            <p id="summary_value" style="padding: 1em; font-size: 1em;">Processing</p>
         </div>
+        <div class="text-center title">Graph</div>
+
         <div class="editable_viewR" style="padding: 2em;">
             <!-- graph -->
         </div>
@@ -45,7 +65,7 @@
     <script>
         async function getData() {
             console.log("fetching summary")
-            data = await fetch("/process/test.mp3");
+            data = await fetch("/proce ss/test.mp3");
             data = await data.json();
 
             console.log(data);
