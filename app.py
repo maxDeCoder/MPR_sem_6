@@ -14,7 +14,7 @@ def upload():
     print("uploading file")
     print(request.files)
     file = request.files['file']
-    file.save("./generated/" + file.filename)
+    file.save("./generated/test.mp3")
     print("uploaded")
     return redirect(url_for("uploaded"))
         # return render_template("summary.html")
@@ -47,4 +47,4 @@ def tree():
     return jsonify(data)
 
 if __name__=='__main__':
-    app.run(debug=True, port=8000)
+    app.run(debug=False, port=8000)
